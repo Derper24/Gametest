@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyh4frkg7r2xf"]
+
+[ext_resource type="PackedScene" uid="uid://dafqescecoop2" path="res://box.tscn" id="1_4y5sx"]
+[ext_resource type="Script" path="res://boxmove.gd" id="2_nv4gk"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_4y5sx")]
+position = Vector2(557, 300)
+script = ExtResource("2_nv4gk")
